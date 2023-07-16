@@ -1,0 +1,220 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans&display=swap');
+body {
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    height: 100vh;
+    font-family: 'Nunito Sans', sans-serif;
+}
+.main-div{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+.center-div{
+    width: 90%;
+    height: 200%;
+    background: rgba(239, 236, 236, 0.5);
+    padding: 20px 0 0 0;
+    box-shadow: 0 10px 20px 0;
+    border-radius: 10px;
+    margin-top: 60px;
+    margin-bottom: 100px;
+}
+.main-div h1{
+    text-align: center ;
+}
+table{
+    border-collapse: collapse;
+    box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.03);
+    border-radius: 10px;
+    margin: auto;
+}
+th,td{
+    border: 1px solid #1e1c1c;
+    padding: 8px 30px;
+    text-align: center;
+    color: rgb(23, 22, 22);
+    font-size: 20px;
+}
+th{
+    text-decoration: uppercase;
+    font-weight: 500;
+}
+
+.fa{
+    font-size: 30px;
+}
+.fa-edit{
+    color: black;
+}
+.fa-trash{
+    color: rgb(213, 42, 42);
+}
+.button {
+    background-color: white;
+    border: none;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: block;
+    font-size: 16px;
+    width: 70%;
+    margin: 10px 20px;
+    border-radius: 10px;
+    transition: background-color 0.3s ease;
+}
+
+.btnadd {
+    background-color: #0c19c7;
+    border: none;
+    color: white;
+    padding: 10px 32px;
+    text-align: center;
+    text-decoration: none;
+    font-size: 16px;
+    /* width: 15%; */
+    margin: 10px 20px;
+    border-radius: 5px;
+}
+.btnadd:hover{
+    color: orange;
+    border: 3px solid orange;
+}
+#qsub{
+    margin-top: 5px;
+}
+.menu {
+    width: 400px;
+    height: 400px;
+    margin: 20px auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.container p{
+    width: 100%;
+    margin: 0 auto;
+    overflow: auto;
+    text-align: center;
+    font-size: 50px;
+}
+.container span{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.qa {
+    width: 60%;
+    margin: 10px auto;
+    overflow: auto;
+    text-align: center;
+    font-size: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.ans {
+    width: 60%;
+    margin: 0 auto;
+    overflow: auto;
+    text-align: center;
+    font-size: 30px;
+    display: flex;
+    flex-direction: column;
+}
+
+li {
+    list-style: none;
+}
+
+footer {
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    font-size: large;
+}
+
+.current {
+    background-color: white;
+    padding: 5px;
+    width: 70%;
+}
+.choices input{
+    display: none;
+}
+.choices li {
+    list-style-type: none;
+}
+
+.choices li label.button {
+    display: inline-block;
+    border: 1px solid #ccc;
+    width: 400px;
+    height: 20px;
+    text-align: center;
+    line-height: auto;
+    cursor: pointer;
+    background-color: white; /* Set default background color to red */
+    color: black;
+    transition: background-color 0.3s ease;
+  }
+  
+  .choices li label.button.correct {
+    background-color: rgb(114, 201, 114);
+    color: #fff;
+}
+
+.choices li label.button.incorrect {
+    background-color: rgb(255, 130, 130);
+    color: #fff;
+}
+.add{
+
+    background-color: rgba(255, 255, 255, 0.5);
+    width: 60vw;
+    font-size: 20px;
+    margin-top: 40px;
+
+}
+
+.add h2{
+    text-align: center;
+
+}
+.add .formq{
+    padding: 40px 40px;
+}
+.maindivs{
+    display: flex;
+    flex-direction: row;
+}
+.delhome{
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    margin: 50px;
+    justify-content: center;
+    align-items: center;
+}
+.formq input[type=number]{
+    width: 60%;
+    border: 2px solid rgb(131, 253, 241);
+    border-radius: 5px;
+    padding: 8px 12px;
+    
+}
+.formq input[type=text]{
+    width: 60%;
+    border: 2px solid rgb(131, 253, 241);
+    border-radius: 5px;
+    padding: 8px 12px;
+
+}
